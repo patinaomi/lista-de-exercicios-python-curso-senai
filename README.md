@@ -1,7 +1,9 @@
 # Lista de Exercícios Básicos em Python
 
 ## Descrição
-Este repositório tem como objetivo reunir alguns exercícios para ajudar alunos iniciantes na linguagem Python. Todos os exercícios contam com um enunciado e com uma solução proposta. 🐍
+Repositório dedicado a resoluções de todos os desafios propostos no curso de Python oferecido pela plataforma Curso Em Vídeo, ministrado pelo Professor e Desenvolvedor Gustavo Guanabara. 🐍
+
+Para ter acesso a este conteúdo, acesse a [playlist](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0&index=2&ab_channel=CursoemV%C3%ADdeo)
 
 ## Índice
 * [Descrição](#descrição)
