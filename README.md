@@ -35,26 +35,29 @@ Repositório dedicado a resoluções de todos os exercícios propostos no curso 
 
 ### Aula 2/20 - Introdução a Lógica de Programação
 
+#### [Exercicio 001](semana1/001.py)
+Crie um programa que escreva “Hello World” na tela
 
-#### [Exercicio 001](mundo1/001.py)
-Crie um programa que escreva “Olá, Mundo” na tela
-
-#### [Exercicio 002](mundo1/002.py)
+#### [Exercicio 002](semana1/002.py)
 Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas vindas.
 
-#### [Exercicio 003](mundo1/003.py)
+### Aula 3/20 - Continuação a Lógica de Programação
+
+#### [Exercicio 003](semana1/003.py)
 Crie um programa que leia dois números e mostre a soma entre eles.
 
-#### [Exercicio 004](mundo1/004.py)
+#### [Exercicio 004](semana1/004.py)
 Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele.
 
-#### [Exercicio 005](mundo1/005.py)
+#### [Exercicio 005](semana1/005.py)
 Faça um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor
 
-#### [Exercicio 006](mundo1/006.py)
+### Aula 4/20 - Lógica de Programação
+
+#### [Exercicio 006](semana1/006.py)
 Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada
 
-#### [Exercicio 007](mundo1/007.py)
+#### [Exercicio 007](semana1/007.py)
 Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média
 
 #### [Exercicio 008](mundo1/008.py)
