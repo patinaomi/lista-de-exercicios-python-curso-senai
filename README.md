@@ -1,20 +1,41 @@
-# Lista de Exercícios Básicos em Python
+
+# Lista de Exercícios Python
 
 ## Descrição
-Repositório dedicado a resoluções de todos os desafios propostos no curso de Python oferecido pela plataforma Curso Em Vídeo, ministrado pelo Professor e Desenvolvedor Gustavo Guanabara. 🐍
-
-Para ter acesso a este conteúdo, acesse a [playlist](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0&index=2&ab_channel=CursoemV%C3%ADdeo)
+Repositório dedicado a resoluções de todos os exercícios propostos no curso de Programação em Python 80h oferecido pelo Senai. 🐍
 
 ## Índice
 * [Descrição](#descrição)
 * [Índice](#índice)
 * [Enunciados](#enunciados)
-  * [Mundo 1: Fundamentos](#--mundo-1-fundamentos)
-  * [Mundo 2](#mundo-2)
+  * [Aula 1/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 2/20 - Introdução ao Python](#--mundo-1-fundamentos)
+  * [Aula 3/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 4/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  *   [Aula 5/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  *   [Aula 6/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  *   [Aula 7/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  *   [Aula 8/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  *   [Aula 9/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+   *   [Aula 10/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+   *   [Aula 11/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+   *   [Aula 12/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+   *   [Aula 13/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+   *   [Aula 14/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+   *   [Aula 15/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+   *   [Aula 16/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+   *   [Aula 17/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+   *   [Aula 18/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+   *   [Aula 19/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+   *   [Aula 20/20 - Apresentação do Curso](#--mundo-1-fundamentos)
 
 
 ## Enunciados
-### - Mundo 1 Fundamentos
+### Aula 1/20 - Apresentação do Curso
+
+### Aula 2/20 - Introdução a Lógica de Programação
+
+
 #### [Exercicio 001](mundo1/001.py)
 Crie um programa que escreva “Olá, Mundo” na tela
 
@@ -78,7 +99,5 @@ O mesmo professor do desafio anterior quer sortear a ordem de apresentação de 
 #### [Exercicio 021](mundo1/021.py)
 Faça um programa em python que abra e reproduza o áudio de um arquivo MP3.  
 
-ex022: Crie um programa que leia o nome completo de uma pessoa e mostre: O nome com todas as letras maiúsculas e minúsculas. Quantas letras ao todo(sem considerar espaços) Quantas letras tem o primeiro nome. ex023: Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados. Ex: Digite um número: 1834 unidade: 4 dezena: 3 centena: 8 milhar: 1 ex024: Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com o nome ‘SANTO’ ex025: Crie um programa que leia o nome de uma pessoa e diga se ela tem ‘SILVA’ no nome. ex026: Faça um programa que leia uma frase pelo teclado e mostre: Quantas vezes aparece a letra ‘A’ Em que posição ela aparece a primeira vez Em que posição ela aparece a última vez ex027: Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente. Ex: Ana Maria de Souza primeiro = Ana último = Souza ex028: Escreva um programa que faça o computador “pensar” em um número inteiro entre 0 e 5 e peça para o usuário tentar descobrir qual foi o número escolhido pelo computador. O programa deverá escrever na tela se o usuário venceu ou perdeu. ex029: Escreva um programa que leia a velocidade de uma carro. Se ele ultrapassar 80 km/h, mostre uma mensagem dizendo que ele foi multado. A multa vai custar R$ 7,00 por cada Km acima do limite. ex030: Crie um programa que leia um número inteiro e mostre na tela se ele é par ou ímpar. ex031: Desenvolva um programa que pergunte a distância de uma viagem em km. Calcule o preço da passagem, cobrando R$ 0,50 por km para viagens de até 200km e R$ 0,45 para viagens mais longas. ex032: Faça um programa que leia um ano qualquer e mostre se ele é bissexto ex033: Faça um programa que leia três números e mostre qual é o maior e qual é o menor. ex034: Escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento. Para salários superiores a R$ 1.250,00, calcule um aumento de 10%. Para os inferiores ou iguais, o aumento é de 15%. ex035: Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.
 
-### - Mundo 2: 
 
