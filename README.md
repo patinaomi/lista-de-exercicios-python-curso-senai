@@ -39,12 +39,12 @@ Repositório dedicado a resoluções de todos os exercícios propostos no curso 
 Crie um programa que escreva “Hello World” na tela
 
 #### [Exercicio 002](semana1/002.py)
-Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas vindas.
+Criar uma árvore de Natal usando print.
 
-### Aula 3/20 - Continuação a Lógica de Programação
+### Aula 3/20 - Tipos de Variáveis, Entrada de Dados
 
 #### [Exercicio 003](semana1/003.py)
-Crie um programa que leia dois números e mostre a soma entre eles.
+Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas vindas.
 
 #### [Exercicio 004](semana1/004.py)
 Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele.
