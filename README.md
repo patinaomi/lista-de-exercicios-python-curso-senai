@@ -9,7 +9,7 @@ Repositório dedicado a resoluções de todos os exercícios propostos no curso 
 * [Índice](#índice)
 * [Enunciados](#enunciados)
   * [Aula 1/20 - Apresentação do Curso](#aula-120---apresentação-do-curso)
-  * [Aula 2/20 - Introdução a Lógica de Programação](# 220---introdução-a-lógica-de-programação)
+  * [Aula 2/20 - Introdução a Lógica de Programação](#aula-220---introdução-a-lógica-de-programação)
   * [Aula 3/20 - Apresentação do Curso](#--mundo-1-fundamentos)
   * [Aula 4/20 - Apresentação do Curso](#--mundo-1-fundamentos)
   *   [Aula 5/20 - Apresentação do Curso](#--mundo-1-fundamentos)
