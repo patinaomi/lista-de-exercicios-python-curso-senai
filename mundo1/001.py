@@ -1,4 +1,2 @@
-
-# Crie um programa que escreva “Olá, Mundo” na tela
-
-print('Olá, Mundo')
+nome = input('Digite seu nome: )
+print(f'{nome}, olá, mundo')
