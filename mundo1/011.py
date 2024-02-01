@@ -1,11 +1,8 @@
-# Faça um programa que leia a largura e altura de uma parede em metros, calcule a sua área e a quantidade de tintas necessárias para pintá-la, sabendo que cada litro de tinta, pinta uma área de 2m²
+PI = 3.1415
 
-largura = float(input('Digite a largura da parede em metros: '))
-altura = float(input('Digite a altura da parede em metros: '))
+raio = float(input('Digite o valor do raio: '))
+altura = float(input('Digite o valor da altura: '))
 
-area = altura * largura
+volume = PI * (raio ** 2) * altura
 
-tinta = area / 2
-
-print(f'Sua parede tem a dimensão de {altura}x{largura} e sua área é de {area}m2')
-print(f'Para pintar essa parede, você precisará de {tinta:.2f}l de tinta.')
+print(f'O valor do volume de uma lata de óleo: {volume:.2f}')
