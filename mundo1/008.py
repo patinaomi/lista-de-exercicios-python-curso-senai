@@ -1,7 +1,7 @@
-# Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros
+p1 = float(input('Digite a primeira nota: '))
+p2 = float(input('Digite a segunda nota: '))
+p3 = float(input('Digite a terceira nota: '))
 
-medida = float(input('Uma distância em metros: '))
-cm = medida * 100
-mm = medida * 1000
+media = (p1 + p2 + p3) /3
 
-print(f'A medida de {medida}m corresponde a {cm:.0f}cm e {mm:.0f}mm.')
+print(f'A média do aluno é {media:.1f}')
