@@ -44,26 +44,29 @@ Criar uma árvore de Natal usando print.
 ### Aula 3/20 - Tipos de Variáveis, Entrada de Dados
 
 #### [Exercicio 003](semana1/003.py)
-Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas vindas.
+Crie um programa para efetuar a leitura de um número inteiro e apresente o resultado do quadrado deste número
 
 #### [Exercicio 004](semana1/004.py)
-Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele.
+Escreva um programa que leia dois caracteres e imprima-os na tela da seguinte forma: O usuário digitou o caracter1 e caracter2
 
 #### [Exercicio 005](semana1/005.py)
-Faça um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor
+Crie um programa que leia um número inteiro e imprimir seu sucessor e seu antecessor
+
+#### [Exercicio 006](semana1/006.py)
+Crie um programa para entrar com a base e a altura de um retângulo e imprimir respectivamente o perímetro e a área correspondente
 
 ### Aula 4/20 - Operadores Aritméticos e Relacionais
 
-#### [Exercicio 006](semana1/006.py)
+#### [Exercicio 007](semana1/007.py)
 Dado a nota das provas P1, P2 e P3, calcular a média (aritmética) das notas do aluno.
 
-#### [Exercicio 007](semana1/007.py)
+#### [Exercicio 008](semana1/008.py)
 Escreva um código que calcule a hipotenusa de um triângulo retângulo, cujos catetos são a=4 e b=3
 
-#### [Exercicio 008](semana1/008.py)
+#### [Exercicio 009](semana1/009.py)
 Solicite ao usuário o valor do salário atual (numérico com decimais), em seguida, solicite o percentual de aumento (numérico com decimais) e imprima o valor do salário atualizado
 
-#### [Exercicio 009](semana1/009.py)
+#### [Exercicio 010](semana1/010.py)
 Crie um programa e declare uma constante PI (use 4 casas após a vírgula). Dados o raio e a altura, calcular e apresentar o valor do volume de uma lata de óleo, utilizando a fórmula: volume = PI * r² * altura
 
 ### Aula 5/20 - ---
