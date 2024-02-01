@@ -11,7 +11,7 @@ Repositório dedicado a resoluções de todos os exercícios propostos no curso 
   * [Aula 1/20 - Apresentação do Curso](#aula-120---apresentação-do-curso)
   * [Aula 2/20 - Introdução a Lógica de Programação](#aula-220---introdução-a-lógica-de-programação)
   * [Aula 3/20 - Tipos de Variáveis, Entrada de Dados](#aula-320---tipos-de-variáveis-entrada-de-dados)
-  * [Aula 4/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 4/20 - Operadores Aritméticos e Relacionais](#aula-420---operadores-aritméticos-e-relacionais)
   *   [Aula 5/20 - Apresentação do Curso](#--mundo-1-fundamentos)
   *   [Aula 6/20 - Apresentação do Curso](#--mundo-1-fundamentos)
   *   [Aula 7/20 - Apresentação do Curso](#--mundo-1-fundamentos)
@@ -52,19 +52,21 @@ Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primiti
 #### [Exercicio 005](semana1/005.py)
 Faça um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor
 
-### Aula 4/20 - Lógica de Programação
+### Aula 4/20 - Operadores Aritméticos e Relacionais
 
 #### [Exercicio 006](semana1/006.py)
-Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada
+Dado a nota das provas P1, P2 e P3, calcular a média (aritmética) das notas do aluno.
 
 #### [Exercicio 007](semana1/007.py)
-Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média
+Escreva um código que calcule a hipotenusa de um triângulo retângulo, cujos catetos são a=4 e b=3
 
-#### [Exercicio 008](mundo1/008.py)
-Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros
+#### [Exercicio 008](semana1/008.py)
+Solicite ao usuário o valor do salário atual (numérico com decimais), em seguida, solicite o percentual de aumento (numérico com decimais) e imprima o valor do salário atualizado
 
-#### [Exercicio 009](mundo1/009.py)
-Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada
+#### [Exercicio 009](semana1/009.py)
+Crie um programa e declare uma constante PI (use 4 casas após a vírgula). Dados o raio e a altura, calcular e apresentar o valor do volume de uma lata de óleo, utilizando a fórmula: volume = PI * r² * altura
+
+### Aula 5/20 - ---
 
 #### [Exercicio 010](mundo1/010.py)
 Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar, considere u$1,00 = r$3,27
