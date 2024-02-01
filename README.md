@@ -74,40 +74,40 @@ Crie um programa e declare uma constante PI (use 4 casas após a vírgula). Dado
 
 ### Aula 5/20 - ---
 
-#### [Exercicio 010](mundo1/010.py)
+#### [Exercicio 010](semana1/010.py)
 Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar, considere u$1,00 = r$3,27
 
-#### [Exercicio 011](mundo1/011.py)
+#### [Exercicio 011](semana1/011.py)
 Faça um programa que leia a largura e altura de uma parede em metros, calcule a sua área e a quantidade de tintas necessárias para pintá-la, sabendo que cada litro de tinta, pinta uma área de 2m²
 
-#### [Exercicio 012](mundo1/012.py)
+#### [Exercicio 012](semana1/012.py)
 Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto 
 
-#### [Exercicio 013](mundo1/013.py)
+#### [Exercicio 013](semana1/013.py)
 Faça um algoritmo que leia o salário de uma funcionário e mostre seu novo salário, com 15% de aumento 
 
-#### [Exercicio 014](mundo1/014.py)
+#### [Exercicio 014](semana1/014.py)
 Escreva um programa que converta um a temperatura digitada em ºC e converta para ºF 
 
-#### [Exercicio 015](mundo1/015.py)
+#### [Exercicio 015](semana1/015.py)
 Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60 por dia e R$ 0,15 por Km rodado. 
 
-#### [Exercicio 016](mundo1/016.py)
+#### [Exercicio 016](semana1/016.py)
 Crie um programa que leia um número Real qualquer pelo teclado e mostre na tela a sua porção Inteira. Ex: Digite um número: 6.127 O número 6.127 tem a parte Inteira 6. 
 
-#### [Exercicio 017](mundo1/017.py)
+#### [Exercicio 017](semana1/017.py)
 Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo, calcule o mostre o comprimento da hipotenusa. 
 
-#### [Exercicio 018](mundo1/018.py)
+#### [Exercicio 018](semana1/018.py)
 Faça um programa que leia um ângulo qualquer a mostre na tela o valor do seno, cosseno e tangente desse ângulo. 
 
-#### [Exercicio 019](mundo1/019.py)
+#### [Exercicio 019](semana1/019.py)
 Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido 
 
-#### [Exercicio 020](mundo1/020.py)
+#### [Exercicio 020](semana1/020.py)
 O mesmo professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos. Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada. 
 
-#### [Exercicio 021](mundo1/021.py)
+#### [Exercicio 021](semana1/021.py)
 Faça um programa em python que abra e reproduza o áudio de um arquivo MP3.  
 
 
