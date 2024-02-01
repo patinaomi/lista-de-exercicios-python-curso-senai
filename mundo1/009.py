@@ -1,8 +1,7 @@
-# Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada
+a = 4
+b = 3
 
-numero = int(input('Digite um número: '))
+hipotenusa = a ** 2 + b ** 2
 
-print(f'Tabuada do {numero}:')
-for i in range(1, 11):
-    tabuada = numero * i
-    print(f'{numero} X {i} = {tabuada}')
+print('Cálculo da Hipotenusa')
+print(f'{a}² + {b}² = {hipotenusa}')
