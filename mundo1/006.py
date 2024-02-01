@@ -1,13 +1,8 @@
-# Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada
+base = float(input('Digite a base do retângulo: '))
+altura = float(input('Digite a altura do retângulo: '))
 
-import math
+perimetro = 2*(base + altura)
+area = base * altura
 
-numero = int(input('Digite um número: '))
-
-dobro = numero * 2
-triplo = numero * 3
-raiz_quadrada =  math.sqrt(numero)
-
-print(f'O dobro de {numero} vale {dobro}.')
-print(f'O triplo de {numero} vale {triplo}.')
-print(f'A raíz quadrada de {numero} é igual a {raiz_quadrada:.2f}.')
+print(f'O perímetro do retângulo é {perimetro}')
+print(f'A área do retângulo é {area}')
