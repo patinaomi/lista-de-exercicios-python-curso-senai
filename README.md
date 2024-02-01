@@ -55,18 +55,21 @@ Crie um programa que leia um número inteiro e imprimir seu sucessor e seu antec
 #### [Exercicio 006](semana1/006.py)
 Crie um programa para entrar com a base e a altura de um retângulo e imprimir respectivamente o perímetro e a área correspondente
 
+#### [Exercicio 007](semana1/007.py)
+Crie um programa que dados o valor, a taxa e o tempo, efetuar o cálculo do valor de uma prestação em atraso, utilizando a fórmula prestação = valor + (valor * (taxa/100) * tempo)
+
 ### Aula 4/20 - Operadores Aritméticos e Relacionais
 
-#### [Exercicio 007](semana1/007.py)
+#### [Exercicio 008](semana1/008.py)
 Dado a nota das provas P1, P2 e P3, calcular a média (aritmética) das notas do aluno.
 
-#### [Exercicio 008](semana1/008.py)
+#### [Exercicio 009](semana1/009.py)
 Escreva um código que calcule a hipotenusa de um triângulo retângulo, cujos catetos são a=4 e b=3
 
-#### [Exercicio 009](semana1/009.py)
+#### [Exercicio 010](semana1/010.py)
 Solicite ao usuário o valor do salário atual (numérico com decimais), em seguida, solicite o percentual de aumento (numérico com decimais) e imprima o valor do salário atualizado
 
-#### [Exercicio 010](semana1/010.py)
+#### [Exercicio 011](semana1/011.py)
 Crie um programa e declare uma constante PI (use 4 casas após a vírgula). Dados o raio e a altura, calcular e apresentar o valor do volume de uma lata de óleo, utilizando a fórmula: volume = PI * r² * altura
 
 ### Aula 5/20 - ---
