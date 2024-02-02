@@ -74,19 +74,19 @@ Crie um programa e declare uma constante PI (use 4 casas após a vírgula). Dado
 
 ### Aula 5/20 - Estruturas Condicionais
 
-#### [Exercicio 010](semana1/010.py)
+#### [Exercicio 012](semana1/012.py)
 Faça um programa que leia 2 notas de um aluno, calcule a média e imprima aprovado ou reprovado (para ser aprovado a média deve ser no mínimo 6)
 
-#### [Exercicio 011](semana1/011.py)
+#### [Exercicio 013](semana1/013.py)
 Faça um programa que peça dois números ao usuário e mostre qual o maior e qual o menor
 
-#### [Exercicio 012](semana1/012.py)
+#### [Exercicio 014](semana1/014.py)
 Escreva um programa em Python que recebe um inteiro e diga se é par ou ímpar
 
-#### [Exercicio 013](semana1/013.py)
+#### [Exercicio 015](semana1/015.py)
 Escreva um programa que pergunte o ano de nascimento de uma pessoa e diga se ele é maior de idade
 
-#### [Exercicio 014](semana1/014.py)
+#### [Exercicio 016](semana1/016.py)
 Faça um algoritmo para ler dois números inteiros e informar se estes são iguais ou diferentes
 
 
