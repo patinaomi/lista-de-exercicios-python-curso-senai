@@ -1,8 +1,7 @@
-# Faça um algoritmo que leia o salário de uma funcionário e mostre seu novo salário, com 15% de aumento 
+num1 = int(input('Digite o primeiro número: '))
+num2 = int(input('Digite o segundo número: '))
 
-salario = float(input('Digite o salário do funcionário: R$'))
-
-novo_salario =  salario + (salario * 15/100)
-
-print(f'Salário antigo {salario:.2f}, com reajuste de 15%')
-print(f'Salário atualizado: R${novo_salario:.2f}')
+if num1 > num2:
+  print(f'{num1} é MAIOR que {num2}')
+else:
+  print(f'{num1} é MENOR que {num2}')
