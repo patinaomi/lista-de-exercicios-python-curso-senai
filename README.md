@@ -12,22 +12,22 @@ Repositório dedicado a resoluções de todos os exercícios propostos no curso 
   * [Aula 2/20 - Introdução a Lógica de Programação](#aula-220---introdução-a-lógica-de-programação)
   * [Aula 3/20 - Tipos de Variáveis, Entrada de Dados](#aula-320---tipos-de-variáveis-entrada-de-dados)
   * [Aula 4/20 - Operadores Aritméticos e Relacionais](#aula-420---operadores-aritméticos-e-relacionais)
-  *   [Aula 5/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-  *   [Aula 6/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-  *   [Aula 7/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-  *   [Aula 8/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-  *   [Aula 9/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-   *   [Aula 10/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-   *   [Aula 11/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-   *   [Aula 12/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-   *   [Aula 13/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-   *   [Aula 14/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-   *   [Aula 15/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-   *   [Aula 16/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-   *   [Aula 17/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-   *   [Aula 18/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-   *   [Aula 19/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-   *   [Aula 20/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 5/20 - Estruturas Condicionais](#aula-520---estruturas-condicionais)
+  * [Aula 6/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 7/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 8/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 9/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 10/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 11/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 12/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 13/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 14/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 15/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 16/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 17/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 18/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 19/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 20/20 - Apresentação do Curso](#--mundo-1-fundamentos)
 
 
 ## Enunciados
@@ -72,22 +72,27 @@ Solicite ao usuário o valor do salário atual (numérico com decimais), em segu
 #### [Exercicio 011](semana1/011.py)
 Crie um programa e declare uma constante PI (use 4 casas após a vírgula). Dados o raio e a altura, calcular e apresentar o valor do volume de uma lata de óleo, utilizando a fórmula: volume = PI * r² * altura
 
-### Aula 5/20 - ---
+### Aula 5/20 - Estruturas Condicionais
 
 #### [Exercicio 010](semana1/010.py)
-Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar, considere u$1,00 = r$3,27
+Faça um programa que leia 2 notas de um aluno, calcule a média e imprima aprovado ou reprovado (para ser aprovado a média deve ser no mínimo 6)
 
 #### [Exercicio 011](semana1/011.py)
-Faça um programa que leia a largura e altura de uma parede em metros, calcule a sua área e a quantidade de tintas necessárias para pintá-la, sabendo que cada litro de tinta, pinta uma área de 2m²
+Faça um programa que peça dois números ao usuário e mostre qual o maior e qual o menor
 
 #### [Exercicio 012](semana1/012.py)
-Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto 
+Escreva um programa em Python que recebe um inteiro e diga se é par ou ímpar
 
 #### [Exercicio 013](semana1/013.py)
-Faça um algoritmo que leia o salário de uma funcionário e mostre seu novo salário, com 15% de aumento 
+Escreva um programa que pergunte o ano de nascimento de uma pessoa e diga se ele é maior de idade
 
 #### [Exercicio 014](semana1/014.py)
-Escreva um programa que converta um a temperatura digitada em ºC e converta para ºF 
+Faça um algoritmo para ler dois números inteiros e informar se estes são iguais ou diferentes
+
+
+### Aula 6/20 - ---
+
+
 
 #### [Exercicio 015](semana1/015.py)
 Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60 por dia e R$ 0,15 por Km rodado. 
