@@ -1,9 +1,9 @@
-# Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto 
+n1 = float(input('Digite a primeira nota do aluno: '))
+n2 = float(input('Digite a segunda nota do aluno: '))
 
-preco_produto = float(input('Digite o preço do produto: R$'))
-desconto = int(input('Digite o valor do desconto: '))
+media = (n1 + n2) / 2
 
-preco_final = preco_produto - (preco_produto * desconto / 100)
-
-print(f'Preço do produto R${preco_produto} com desconto de {desconto}%')
-print(f'Valor atualizado: R${preco_final}')
+if media >= 6:
+  print('Aprovado')
+else:
+  print('Reprovado')
