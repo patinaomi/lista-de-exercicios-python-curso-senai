@@ -16,7 +16,7 @@ Repositório dedicado a resoluções de todos os exercícios propostos no curso 
   * [Aula 4/20 - Operadores Aritméticos e Relacionais](#aula-420---operadores-aritméticos-e-relacionais)
   * [Aula 5/20 - Estruturas Condicionais](#aula-520---estruturas-condicionais)
 * [Semana 2](#semana-2)
-  * [Aula 6/20 - Estrutura Condicional elif](#--mundo-1-fundamentos)
+  * [Aula 6/20 - Estrutura Condicional elif](#aula-620---estrutura-condicional-elif)
   * [Aula 7/20 - Apresentação do Curso](#--mundo-1-fundamentos)
   * [Aula 8/20 - Apresentação do Curso](#--mundo-1-fundamentos)
   * [Aula 9/20 - Apresentação do Curso](#--mundo-1-fundamentos)
