@@ -1,4 +1,5 @@
 
+
 # Lista de Exercícios Python
 
 ## Descrição
@@ -8,29 +9,36 @@ Repositório dedicado a resoluções de todos os exercícios propostos no curso 
 * [Descrição](#descrição)
 * [Índice](#índice)
 * [Enunciados](#enunciados)
+* [Semana 1](#semana-1)
   * [Aula 1/20 - Apresentação do Curso](#aula-120---apresentação-do-curso)
   * [Aula 2/20 - Introdução a Lógica de Programação](#aula-220---introdução-a-lógica-de-programação)
   * [Aula 3/20 - Tipos de Variáveis, Entrada de Dados](#aula-320---tipos-de-variáveis-entrada-de-dados)
   * [Aula 4/20 - Operadores Aritméticos e Relacionais](#aula-420---operadores-aritméticos-e-relacionais)
   * [Aula 5/20 - Estruturas Condicionais](#aula-520---estruturas-condicionais)
+* [Semana 2](#semana-2)
   * [Aula 6/20 - Apresentação do Curso](#--mundo-1-fundamentos)
   * [Aula 7/20 - Apresentação do Curso](#--mundo-1-fundamentos)
   * [Aula 8/20 - Apresentação do Curso](#--mundo-1-fundamentos)
   * [Aula 9/20 - Apresentação do Curso](#--mundo-1-fundamentos)
   * [Aula 10/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-  * [Aula 11/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-  * [Aula 12/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-  * [Aula 13/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-  * [Aula 14/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-  * [Aula 15/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-  * [Aula 16/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-  * [Aula 17/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-  * [Aula 18/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-  * [Aula 19/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-  * [Aula 20/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+ * [Semana 3](#semana-3)
+   * [Aula 11/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+   * [Aula 12/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+   * [Aula 13/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+   * [Aula 14/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+   * [Aula 15/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Semana 4](#semana-4)
+    * [Aula 16/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+    * [Aula 17/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+    * [Aula 18/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+    * [Aula 19/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+    * [Aula 20/20 - Apresentação do Curso](#--mundo-1-fundamentos)
 
 
-## Enunciados
+# Enunciados
+
+## Semana 1
+
 ### Aula 1/20 - Apresentação do Curso
 
 ### Aula 2/20 - Introdução a Lógica de Programação
@@ -89,6 +97,7 @@ Escreva um programa que pergunte o ano de nascimento de uma pessoa e diga se ele
 #### [Exercicio 016](semana1/016.py)
 Faça um algoritmo para ler dois números inteiros e informar se estes são iguais ou diferentes
 
+## Semana 2
 
 ### Aula 6/20 - ---
 
@@ -115,3 +124,6 @@ Faça um programa em python que abra e reproduza o áudio de um arquivo MP3.
 
 
 
+## Semana 3
+
+## Semana 4
