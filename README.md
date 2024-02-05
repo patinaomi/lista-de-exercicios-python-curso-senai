@@ -16,7 +16,7 @@ Repositório dedicado a resoluções de todos os exercícios propostos no curso 
   * [Aula 4/20 - Operadores Aritméticos e Relacionais](#aula-420---operadores-aritméticos-e-relacionais)
   * [Aula 5/20 - Estruturas Condicionais](#aula-520---estruturas-condicionais)
 * [Semana 2](#semana-2)
-  * [Aula 6/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 6/20 - Estrutura Condicional elif](#--mundo-1-fundamentos)
   * [Aula 7/20 - Apresentação do Curso](#--mundo-1-fundamentos)
   * [Aula 8/20 - Apresentação do Curso](#--mundo-1-fundamentos)
   * [Aula 9/20 - Apresentação do Curso](#--mundo-1-fundamentos)
@@ -99,19 +99,25 @@ Faça um algoritmo para ler dois números inteiros e informar se estes são igua
 
 ## Semana 2
 
-### Aula 6/20 - ---
+### Aula 6/20 - Estrutura Condicional elif
 
 #### [Exercicio 017](semana2/017.py)
-Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60 por dia e R$ 0,15 por Km rodado. 
+Desenvolve um programa que recebe do usuário, o placar de um jogo de futebol (os gols de cada time) e informe se o resultado foi um empate, se a vitória foi do primeiro time ou do segundo time
 
 #### [Exercicio 018](semana2/018.py)
-Crie um programa que leia um número Real qualquer pelo teclado e mostre na tela a sua porção Inteira. Ex: Digite um número: 6.127 O número 6.127 tem a parte Inteira 6. 
+Faça um algoritmo que receba um valor de uma compra e receba o número de prestações, apresente o valor das prestações sem juros
 
 #### [Exercicio 019](semana2/019.py)
-Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo, calcule o mostre o comprimento da hipotenusa. 
+Elabore um algoritmo que dada a idade de um nadador classifique-o em uma das seguintes categorias: Infantil A = 5 a 7 anos
+Infantil B = 8 a 11 anos
+Juvenil A = 12 a 13 anos
+Juvenil B = 14 a 17 anos
+Adultos = Maiores de 18 anos
 
 #### [Exercicio 020](semana2/020.py)
-Faça um programa que leia um ângulo qualquer a mostre na tela o valor do seno, cosseno e tangente desse ângulo. 
+Faça um programa que solicite dois números ao usuário (com decimais). Em seguida solicite que o usuário informe o resultado das quatro operações matemáticas (subtração, soma, multiplicação e divisão)
+
+### Aula 7/20 - ----
 
 #### [Exercicio 021](semana2/021.py)
 Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido 
