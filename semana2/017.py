@@ -21,21 +21,18 @@ qtd_golB = int(input('Digite a quantidade de gols: '))
 print(f'PLACAR: {timeA} {qtd_golA} X {qtd_golB} {timeB}')
 
 if qtd_golA > qtd_golB:
-    vencedor = timeA
+  print(f'O {timeA} venceu o jogo.')
 elif qtd_golA == qtd_golB:
-    vencedor = ''
+  print('Jogo empatado')
 else:
-    vencedor = timeB
-  
-if vencedor == '':
-    print('Jogo empatado')
-else:  
-    print(f'O {vencedor} venceu o jogo.')
+  print(f'O {timeB} venceu o jogo.')
+
 
 # Exemplo com Listas
 
 timeA = []
 timeB = []
+
 
 timeA.append(input('Digite o nome do time A: '))
 timeA.append(int(input('Digite a quantidade de gols: ')))
@@ -47,14 +44,9 @@ timeB.append(int(input('Digite a quantidade de gols: ')))
 print(f'PLACAR: {timeA[0]} {timeA[1]} X {timeB[1]} {timeB[0]}')
 
 if timeA[1] > timeB[1]:
-    vencedor = timeA[0]
+  print(f'O {timeA[0]} venceu o jogo.')
 
 elif timeA[1] == timeB[1]:
-    vencedor = ''
+  print('Jogo empatado')
 else:
-    vencedor = timeB[0]
-
-if vencedor == '':
-    print('Jogo empatado')
-else:  
-    print(f'O {vencedor} venceu o jogo.')
+  print(f'O {timeB[0]} venceu o jogo.')
