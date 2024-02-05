@@ -92,27 +92,25 @@ Faça um algoritmo para ler dois números inteiros e informar se estes são igua
 
 ### Aula 6/20 - ---
 
-
-
-#### [Exercicio 015](semana1/015.py)
+#### [Exercicio 017](semana2/017.py)
 Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60 por dia e R$ 0,15 por Km rodado. 
 
-#### [Exercicio 016](semana1/016.py)
+#### [Exercicio 018](semana2/018.py)
 Crie um programa que leia um número Real qualquer pelo teclado e mostre na tela a sua porção Inteira. Ex: Digite um número: 6.127 O número 6.127 tem a parte Inteira 6. 
 
-#### [Exercicio 017](semana1/017.py)
+#### [Exercicio 019](semana2/019.py)
 Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo, calcule o mostre o comprimento da hipotenusa. 
 
-#### [Exercicio 018](semana1/018.py)
+#### [Exercicio 020](semana2/020.py)
 Faça um programa que leia um ângulo qualquer a mostre na tela o valor do seno, cosseno e tangente desse ângulo. 
 
-#### [Exercicio 019](semana1/019.py)
+#### [Exercicio 021](semana2/021.py)
 Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido 
 
-#### [Exercicio 020](semana1/020.py)
+#### [Exercicio 022](semana2/022.py)
 O mesmo professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos. Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada. 
 
-#### [Exercicio 021](semana1/021.py)
+#### [Exercicio 023](semana2/023.py)
 Faça um programa em python que abra e reproduza o áudio de um arquivo MP3.  
 
 

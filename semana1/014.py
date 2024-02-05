@@ -1,8 +1,8 @@
 num = int(input('Digite um número: '))
 
 if num == 0:
-  print(f'{num} é NULO')
+    print(f'{num} é NULO')
 elif num % 2 == 0:
-  print(f'O número {num} é PAR')
+    print(f'O número {num} é PAR')
 else:
-  print(f'O número {num} é ÍMPAR')
+    print(f'O número {num} é ÍMPAR')

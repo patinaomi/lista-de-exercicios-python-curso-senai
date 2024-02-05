@@ -4,6 +4,6 @@ n2 = float(input('Digite a segunda nota do aluno: '))
 media = (n1 + n2) / 2
 
 if media >= 6:
-  print('Aprovado')
+    print('Aprovado')
 else:
-  print('Reprovado')
+    print('Reprovado')
