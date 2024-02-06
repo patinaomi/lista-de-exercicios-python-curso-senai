@@ -17,7 +17,7 @@ Repositório dedicado a resoluções de todos os exercícios propostos no curso 
   * [Aula 5/20 - Estruturas Condicionais](#aula-520---estruturas-condicionais)
 * [Semana 2](#semana-2)
   * [Aula 6/20 - Estrutura Condicional elif](#aula-620---estrutura-condicional-elif)
-  * [Aula 7/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 7/20 - Estrutura de repetição While e For](#--mundo-1-fundamentos)
   * [Aula 8/20 - Apresentação do Curso](#--mundo-1-fundamentos)
   * [Aula 9/20 - Apresentação do Curso](#--mundo-1-fundamentos)
   * [Aula 10/20 - Apresentação do Curso](#--mundo-1-fundamentos)
@@ -117,10 +117,12 @@ Adultos = Maiores de 18 anos
 #### [Exercicio 020](semana2/020.py)
 Faça um programa que solicite dois números ao usuário (com decimais). Em seguida solicite que o usuário informe o resultado das quatro operações matemáticas (subtração, soma, multiplicação e divisão)
 
-### Aula 7/20 - ----
+### Aula 7/20 - Estrutura de repetição While e For
 
 #### [Exercicio 021](semana2/021.py)
-Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido 
+Crie um programa que busque um nome em uma lista, caso não seja encontrado imprima uma mensagem dizendo que o nome não está na lista. 
+
+### Aula 8/20 - Listas
 
 #### [Exercicio 022](semana2/022.py)
 O mesmo professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos. Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada. 
@@ -128,6 +130,14 @@ O mesmo professor do desafio anterior quer sortear a ordem de apresentação de 
 #### [Exercicio 023](semana2/023.py)
 Faça um programa em python que abra e reproduza o áudio de um arquivo MP3.  
 
+#### [Exercicio 024](semana2/024.py)
+Faça um programa em python que abra e reproduza o áudio de um arquivo MP3.  
+
+#### [Exercicio 025](semana2/025.py)
+Faça um programa em python que abra e reproduza o áudio de um arquivo MP3.  
+
+#### [Exercicio 026](semana2/026.py)
+Faça um programa em python que abra e reproduza o áudio de um arquivo MP3.  
 
 
 ## Semana 3
