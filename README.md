@@ -128,7 +128,7 @@ Crie um programa que busque um nome em uma lista, caso não seja encontrado impr
 Construa um programa em Python utilizando os comandos aprendidos até agora para encontrar todos os números pares entre 1 e 100.
 
 #### [Exercicio 023](semana2/023.py)
-2.Faça um programa em Python (utilize a estrutura FOR) que leia 10 valores inteiros e:
+Faça um programa em Python (utilize a estrutura FOR) que leia 10 valores inteiros e:
 *   Encontre e mostre o maior valor
 *   Encontre e mostre o menor valor
 *   Calcule e mostre a média dos números lidos 
