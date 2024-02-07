@@ -23,3 +23,17 @@ print('\n--- RESULTADO ---')
 print('Maior Valor: ', maior)
 print('Menor Valor: ', menor)
 print(f'Média dos Números: {res:.2f}')
+
+# Exercício feito com uso de funções
+
+lista = []
+
+for i in range(10):
+    lista.append(int(input(f'Digite o {i+1}° número: '))) 
+
+res = sum(lista) / len(lista)
+
+print('\n--- RESULTADO ---')
+print('Maior Valor: ', max(lista))
+print('Menor Valor: ', min(lista))
+print('Média dos Números: ', res) 
