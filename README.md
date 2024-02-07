@@ -17,8 +17,8 @@ Repositório dedicado a resoluções de todos os exercícios propostos no curso 
   * [Aula 5/20 - Estruturas Condicionais](#aula-520---estruturas-condicionais)
 * [Semana 2](#semana-2)
   * [Aula 6/20 - Estrutura Condicional elif](#aula-620---estrutura-condicional-elif)
-  * [Aula 7/20 - Estrutura de repetição While e For](#--mundo-1-fundamentos)
-  * [Aula 8/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 7/20 - Estrutura de repetição While e For](#aula-720---estrutura-de-repetição-while-e-for)
+  * [Aula 8/20 - Listas](#aula-820---listas)
   * [Aula 9/20 - Apresentação do Curso](#--mundo-1-fundamentos)
   * [Aula 10/20 - Apresentação do Curso](#--mundo-1-fundamentos)
  * [Semana 3](#semana-3)
@@ -125,13 +125,18 @@ Crie um programa que busque um nome em uma lista, caso não seja encontrado impr
 ### Aula 8/20 - Listas
 
 #### [Exercicio 022](semana2/022.py)
-O mesmo professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos. Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada. 
+Construa um programa em Python utilizando os comandos aprendidos até agora para encontrar todos os números pares entre 1 e 100.
 
 #### [Exercicio 023](semana2/023.py)
-Faça um programa em python que abra e reproduza o áudio de um arquivo MP3.  
+2.Faça um programa em Python (utilize a estrutura FOR) que leia 10 valores inteiros e:
+*   Encontre e mostre o maior valor
+*   Encontre e mostre o menor valor
+*   Calcule e mostre a média dos números lidos 
 
 #### [Exercicio 024](semana2/024.py)
-Faça um programa em python que abra e reproduza o áudio de um arquivo MP3.  
+Faça um programa em linguagem Python que recebe a temperatura de um cliente e imprima a mensagem de se a temperatura está normal (menor que 37,2 C) ou está em estado febril (37,3 C e 38 C) ou com febre (38C a 39C) e com febre alta (acima 39 C). No final mostre a quantidade de pessoas analisadas e a média da temperatura.
+
+### Aula 9/20 - Listas
 
 #### [Exercicio 025](semana2/025.py)
 Faça um programa em python que abra e reproduza o áudio de um arquivo MP3.  
