@@ -136,7 +136,7 @@ Faça um programa em Python (utilize a estrutura FOR) que leia 10 valores inteir
 #### [Exercicio 024](semana2/024.py)
 Faça um programa em linguagem Python que recebe a temperatura de um cliente e imprima a mensagem de se a temperatura está normal (menor que 37,2 C) ou está em estado febril (37,3 C e 38 C) ou com febre (38C a 39C) e com febre alta (acima 39 C). No final mostre a quantidade de pessoas analisadas e a média da temperatura.
 
-### Aula 9/20 - Listas
+### Aula 9/20 - Continuação Listas
 
 #### [Exercicio 025](semana2/025.py)
 Ler do teclado a idade e o sexo de 10 pessoas, calcule e imprima:
