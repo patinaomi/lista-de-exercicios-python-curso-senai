@@ -19,7 +19,7 @@ Repositório dedicado a resoluções de todos os exercícios propostos no curso 
   * [Aula 6/20 - Estrutura Condicional elif](#aula-620---estrutura-condicional-elif)
   * [Aula 7/20 - Estrutura de repetição While e For](#aula-720---estrutura-de-repetição-while-e-for)
   * [Aula 8/20 - Listas](#aula-820---listas)
-  * [Aula 9/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+  * [Aula 9/20 - Continuação Listas](#aula-920---continuação-listas)
   * [Aula 10/20 - Apresentação do Curso](#--mundo-1-fundamentos)
  * [Semana 3](#semana-3)
    * [Aula 11/20 - Apresentação do Curso](#--mundo-1-fundamentos)
