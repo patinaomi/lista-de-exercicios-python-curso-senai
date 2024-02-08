@@ -139,10 +139,24 @@ Faça um programa em linguagem Python que recebe a temperatura de um cliente e i
 ### Aula 9/20 - Listas
 
 #### [Exercicio 025](semana2/025.py)
-Faça um programa em python que abra e reproduza o áudio de um arquivo MP3.  
+Ler do teclado a idade e o sexo de 10 pessoas, calcule e imprima:
+*   Idade média das mulheres
+*   Idade média dos homens
+*   Idade média do grupo
 
 #### [Exercicio 026](semana2/026.py)
-Faça um programa em python que abra e reproduza o áudio de um arquivo MP3.  
+Escreva um programa que mostre todos os números entre 5 e 100 que são divisíveis por 7, mas não são múltiplos de 5. Os números obtidos devem ser impressos em sequência.
+
+#### [Exercicio 027](semana2/027.py)
+Escreva um programa em Python que receba uma string do usuário e mostre de trás para frente.
+
+#### [Exercicio 028](semana2/028.py)
+Escreva um programa em Python para encontrar o fatorial de qualquer número.
+
+#### [Exercicio 029](semana2/029.py)
+Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
+
+### Aula 10/20 - TITULO
 
 
 ## Semana 3
