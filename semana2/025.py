@@ -3,13 +3,20 @@ lista_mulheres = []
 lista_homens = []
 
 
-for i in range(10):
+for i in range(4):
     genero = ''
-    idade = int(input(f'Digite a {i+1}ª idade: '))
-    lista.append(idade)
 
     while True:
-        genero = input('Feminino ou Masculino (F/M): ')
+        idade = int(input(f'Digite a {i+1}ª idade: '))
+        if idade >= 18 and idade <=70:
+            lista.append(idade)
+            break
+        else:
+            print('Idade inválida, deve ser maior que 18 e menor que 70!')
+        
+
+    while True:
+        genero = input('\t[F] - Feminino\n\t[M]- Masculino\n\tDigite: ')
 
         if genero.upper() == 'F':
             lista_mulheres.append(idade)
@@ -20,11 +27,18 @@ for i in range(10):
         else:
           print('Opção Inválida')
 
+print('----- RESULTADO -----')
+if len(lista_mulheres) != 0:
+    media_m = sum(lista_mulheres) / len(lista_mulheres)
+    print(f'Idade média das mulheres: {media_m:.2f}')
+else:
+    print('Não há mulheres na lista!')
 
-media_m = sum(lista_mulheres) / len(lista_mulheres)
-media_h = sum(lista_homens) / len(lista_homens)
+if len(lista_homens) != 0:
+    media_h = sum(lista_homens) / len(lista_homens)
+    print(f'Idade médias dos homens: {media_h:.2f}')
+else:
+    print('Não há homens na lista!')
+
 media_grupo = sum(lista) / len(lista)
-
-print(f'Idade média das mulheres: {media_m:.2f}')
-print(f'Idade médias dos homens: {media_h:.2f}')
 print(f'Idade média do grupo: {media_grupo:.2f}')
