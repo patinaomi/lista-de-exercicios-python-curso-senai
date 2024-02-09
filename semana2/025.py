@@ -3,7 +3,7 @@ lista_mulheres = []
 lista_homens = []
 
 
-for i in range(4):
+for i in range(11):
     genero = ''
 
     while True:
