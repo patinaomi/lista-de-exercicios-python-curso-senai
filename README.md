@@ -97,6 +97,8 @@ Escreva um programa que pergunte o ano de nascimento de uma pessoa e diga se ele
 #### [Exercicio 016](semana1/016.py)
 Faça um algoritmo para ler dois números inteiros e informar se estes são iguais ou diferentes
 
+[:arrow_up: voltar para o índice :arrow_up:](#índice)
+
 ## Semana 2
 
 ### Aula 6/20 - Estrutura Condicional elif
@@ -158,7 +160,12 @@ Faça um programa que leia um nome de usuário e a sua senha e não aceite a sen
 
 ### Aula 10/20 - TITULO
 
+[:arrow_up: voltar para o índice :arrow_up:](#índice)
 
 ## Semana 3
 
+[:arrow_up: voltar para o índice :arrow_up:](#índice)
+
 ## Semana 4
+
+[:arrow_up: voltar para o índice :arrow_up:](#índice)
