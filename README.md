@@ -166,8 +166,11 @@ Faça um programa que leia um nome de usuário e a sua senha e não aceite a sen
 
 ### Aula 11/20 - Dicionários
 
-#### [Exercicio 031](semana3/030.py)
+#### [Exercicio 030](semana3/030.py)
 Faça um programa, com uma função que guarda informações: nome, sobrenome e idade. Abra um menu de consulta pegando todos os dados cadastrados da consulta.
+
+#### [Exercicio 031](semana3/031.py)
+Faça um programa que busque os dados de um usuário cadastrado.
 
 ### Aula 12/20 - Continuação Dicionários
 
