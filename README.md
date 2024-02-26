@@ -23,7 +23,7 @@ Repositório dedicado a resoluções de todos os exercícios propostos no curso 
   * [Aula 10/20 - Tuplas](#aula-1020---tuplas)
  * [Semana 3](#semana-3)
    * [Aula 11/20 - Dicionários](#aula-1120---dicionários)
-   * [Aula 12/20 - Continuação Dicionários](#aula-1220-continuação-dicionários)
+   * [Aula 12/20 - Continuação Dicionários](#aula-1220---continuação-dicionários)
    * [Aula 13/20 - Apresentação do Curso](#--mundo-1-fundamentos)
    * [Aula 14/20 - Apresentação do Curso](#--mundo-1-fundamentos)
    * [Aula 15/20 - Apresentação do Curso](#--mundo-1-fundamentos)
