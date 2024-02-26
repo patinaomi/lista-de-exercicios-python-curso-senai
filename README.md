@@ -20,10 +20,10 @@ Repositório dedicado a resoluções de todos os exercícios propostos no curso 
   * [Aula 7/20 - Estrutura de repetição While e For](#aula-720---estrutura-de-repetição-while-e-for)
   * [Aula 8/20 - Listas](#aula-820---listas)
   * [Aula 9/20 - Continuação Listas](#aula-920---continuação-listas)
-  * [Aula 10/20 - Métodos Listas](#aula-1020---métodos-listas)
+  * [Aula 10/20 - Tuplas](#aula-1020---tuplas)
  * [Semana 3](#semana-3)
-   * [Aula 11/20 - Tuplas](#aula-1120---tuplas)
-   * [Aula 12/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+   * [Aula 11/20 - Dicionários](#aula-1120---dicionários)
+   * [Aula 12/20 - Continuação Dicionários](#aula-1220-continuação-dicionários)
    * [Aula 13/20 - Apresentação do Curso](#--mundo-1-fundamentos)
    * [Aula 14/20 - Apresentação do Curso](#--mundo-1-fundamentos)
    * [Aula 15/20 - Apresentação do Curso](#--mundo-1-fundamentos)
@@ -158,19 +158,18 @@ Escreva um programa em Python para encontrar o fatorial de qualquer número.
 #### [Exercicio 029](semana2/029.py)
 Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
 
-### Aula 10/20 - Métodos com Listas
+### Aula 10/20 - Tuplas
 
 [:arrow_up: voltar para o índice :arrow_up:](#índice)
 
 ## Semana 3
 
-### Aula 11/20 - Tuplas e Dicionários
+### Aula 11/20 - Dicionários
 
 #### [Exercicio 031](semana3/030.py)
 Faça um programa, com uma função que guarda informações: nome, sobrenome e idade. Abra um menu de consulta pegando todos os dados cadastrados da consulta.
 
-
-### Aula 12/20 - Tuplas
+### Aula 12/20 - Continuação Dicionários
 
 ### Aula 13/20 - Tuplas
 
