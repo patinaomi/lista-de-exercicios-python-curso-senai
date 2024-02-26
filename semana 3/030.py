@@ -9,12 +9,12 @@ idade = int(input('Digite a idade: '))
 
 pacientes.update({'Nome': nome, 'Sobrenome': sobrenome, 'Idade': idade})
 
-print('--- IMPRESSÃO ---')
+print('\n--- IMPRESSÃO ---')
 for k, v  in pacientes.items():
    print(f'{k} - {v}')
 
-# Armazenando direto no dicionário
 
+# Armazenando direto no dicionário
 pacientes = {}
 
 print('----- CADASTRO -----')
@@ -23,12 +23,12 @@ pacientes['Sobrenome'] = input('Digite o sobrenome: ')
 pacientes['Idade'] = int(input('Digite a idade: '))
 
 
-print('--- IMPRESSÃO ---')
+print('\n --- IMPRESSÃO ---')
 for k, v  in pacientes.items():
    print(f'{k} - {v}')
 
-# Aqui posso adicionar uma quantidade indeterminada de pacientes dentro de uma lista
 
+# Aqui posso adicionar uma quantidade indeterminada de pacientes dentro de uma lista
 lista_pacientes = []
 id = 0
 
