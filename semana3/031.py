@@ -18,11 +18,11 @@ while True:
             idade = int(input('Digite a idade: '))
             id += 1
             paciente = {'Id': id, 'Nome': nome, 'Sobrenome': sobrenome, 'Idade': idade}
+
+            print('Paciente cadastrado com sucesso')
             lista_pacientes.append(paciente)
 
-            opcao = input('Deseja adicionar novo paciente? (S/N): ')
-            if opcao.upper() == 'N':
-                break
+            break
 
     elif opcao == '2':
             print('----- BUSCAR PACIENTE -----')
