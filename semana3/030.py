@@ -29,10 +29,12 @@ for k, v  in pacientes.items():
 
 
 # Aqui posso adicionar uma quantidade indeterminada de pacientes dentro de uma lista
+
 lista_pacientes = []
 id = 0
+opcao = ''
 
-while True:
+while opcao != '0':
     print('----- CADASTRAR NOVO PACIENTE -----')
     nome = input('Digite o nome: ')
     sobrenome = input('Digite o sobrenome: ')
@@ -41,9 +43,8 @@ while True:
     novo_paciente = {'Id': id, 'Nome': nome, 'Sobrenome': sobrenome, 'Idade': idade}
     lista_pacientes.append(novo_paciente)
 
-    opcao = input('Deseja adicionar novo paciente? (S/N): ')
-    if opcao.upper() == 'N':
-        break
+    opcao = input('Digite 0 para sair do programa: ')
 
 print('--- IMPRESSÃO ---')
 print(lista_pacientes)
+
