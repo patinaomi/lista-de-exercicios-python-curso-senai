@@ -1,0 +1,20 @@
+[
+    {
+        "Id: ": 1,
+        "Produto: ": "Blusa",
+        "Cor: ": "Vermelho",
+        "Variações: ": {
+            "P": "3",
+            "M": "2"
+        }
+    },
+    {
+        "Id": 2,
+        "Produto": "Blusa",
+        "Cor": "Vermelho",
+        "Variações": {
+            "P": "3",
+            "M": "4"
+        }
+    }
+]
