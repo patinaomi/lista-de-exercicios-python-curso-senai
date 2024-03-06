@@ -14,25 +14,24 @@ def menu_principal():
 -------------------------
 """)
 
-        op = input('Digite uma opção: ')
-        op = int(op)
+    op = int(input('Digite uma opção: '))
 
-        if op in range(0, 6):
-            if op == 1:
-                adicionar_prod()
-            elif op == 2:
-                editar_prod()
-            elif op == 3:
-                listar_prod()
-            elif op == 4:
-                buscar_prod()
-            elif op == 5:
-                deletar_prod()
-            elif op == 0:
-                print('Encerrando o programa...')
-                break
-        else:
-            print('Opção inválida, digite novamente')
+    if op in range(0, 6):
+        if op == 1:
+            adicionar_prod()
+        elif op == 2:
+            editar_prod()
+        elif op == 3:
+            listar_prod()
+        elif op == 4:
+            buscar_prod()
+        elif op == 5:
+            deletar_prod()
+        elif op == 0:
+            print('Encerrando o programa...')
+
+    else:
+        print('Opção inválida, digite novamente')
 
 
 def carregar_dados():
@@ -91,51 +90,48 @@ def editar_prod():
         print('Não há produtos no estoque')
         return
 
-    num_prod = input("Digite o número do produto que deseja alterar (ou '0' para cancelar): ")
-
-    if num_prod == 0:
-        return
-
     try:
-        id_prod = int(num_prod) - 1
-        if id_prod < len(produtos):
-            prod_selecionado = produtos[id_prod]
+        index = None
+        num_prod = int(input("Digite o número do produto que deseja alterar (ou '0' para cancelar): "))
+        if num_prod == 0:
+            return
 
-            print('Produto para ser alterado:')
-            imprimir_dados(prod_selecionado)
+        for i, produto in enumerate(produtos):
+            if produto['Id'] == num_prod:
+                index = i
 
-            op = input('\nDigite o número correspondente ao dado que deseja alterar:'
-                       '\n [1] Nome do Produto'
-                       '\n [2] Cor'
-                       '\n [3] Preço'
-                       '\n [4] Variações'
-                       '\n [0] Cancelar'
-                       '\n Opção: ')
-            if op == '1':
-                prod_selecionado['Nome'] = input('Digite o novo nome do produto: ')
-            elif op == '2':
-                prod_selecionado['Cor'] = input('Digite a nova cor: ')
-            elif op == '3':
-                prod_selecionado['Preço'] = float(input('Digite o novo preço: '))
-            elif op == '4':
-                lista_tam = {}
-                qtd_var = int(input('Digite a quantidade de variações: '))
-                for i in range(qtd_var):
-                    variacao = input(f'Variação {i + 1}: ')
-                    qtd = input('Digite a quantidade: ')
-                    lista_tam.update({variacao.upper(): qtd})
-                    prod_selecionado['Variações'] = lista_tam
-            elif op == '0':
-                return
-            else:
-                print('Opção inválida')
+                prod_selecionado = produtos[index]
+                print('Produto para ser alterado:')
+                imprimir_dados(prod_selecionado)
 
-            escrever_dados(produtos)
+                op = input('\nDigite o número correspondente ao dado que deseja alterar:'
+                           '\n [1] Nome do Produto'
+                           '\n [2] Cor'
+                           '\n [3] Preço'
+                           '\n [4] Variações'
+                           '\n [0] Cancelar'
+                           '\n Opção: ')
+                if op == '1':
+                    prod_selecionado['Nome'] = input('Digite o novo nome do produto: ')
+                elif op == '2':
+                    prod_selecionado['Cor'] = input('Digite a nova cor: ')
+                elif op == '3':
+                    prod_selecionado['Preço'] = float(input('Digite o novo preço: '))
+                elif op == '4':
+                    lista_tam = {}
+                    qtd_var = int(input('Digite a quantidade de variações: '))
+                    for i in range(qtd_var):
+                        variacao = input(f'Variação {i + 1}: ')
+                        qtd = input('Digite a quantidade: ')
+                        lista_tam.update({variacao.upper(): qtd})
+                        prod_selecionado['Variações'] = lista_tam
+                elif op == '0':
+                    return
+                else:
+                    print('Opção inválida')
 
-            print('Produto alterado com sucesso')
-
-        else:
-            print('Produto não encontrado')
+                escrever_dados(produtos)
+                print('Produto alterado com sucesso')
 
     except ValueError:
         print('Digite somente números')
@@ -188,15 +184,16 @@ def deletar_prod():
     op = input('Digite o ID do produto: ')
 
     try:
-        busca = int(op) - 1
-        if busca < len(produtos):
-            produtos = carregar_dados()
-            del produtos[busca]
-            escrever_dados(produtos)
-            print('Produto deletado')
+        busca = int(op)
+        index = None
+        produtos = carregar_dados()
+        for i, produto in enumerate(produtos):
+            if produto['Id'] == busca:
+                index = i
+                del produtos[index]
 
-        else:
-            print("Produto não foi encontrado")
+        escrever_dados(produtos)
+        print('Produto deletado')
 
     except ValueError:
         print('Digite somente números')

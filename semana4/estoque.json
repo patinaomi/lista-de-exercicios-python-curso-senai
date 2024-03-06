@@ -11,15 +11,6 @@
     }
   },
   {
-    "Id": 2,
-    "Produto": "Saia",
-    "Cor": "Amarelo",
-    "Preço": 89.99,
-    "Variações": {
-      "U": "4"
-    }
-  },
-  {
     "Id": 4,
     "Produto": "Shorts",
     "Cor": "Violeta",
