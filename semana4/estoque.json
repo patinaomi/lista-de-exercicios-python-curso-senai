@@ -1,20 +1,13 @@
 [
     {
-        "Id: ": 1,
-        "Produto: ": "Blusa",
-        "Cor: ": "Vermelho",
-        "Variações: ": {
-            "P": "3",
-            "M": "2"
-        }
-    },
-    {
-        "Id": 2,
+        "Id": 1,
         "Produto": "Blusa",
-        "Cor": "Vermelho",
+        "Cor": "Branco",
+        "Preço": 25.99,
         "Variações": {
             "P": "3",
-            "M": "4"
+            "M": "2",
+            "G": "1"
         }
     }
 ]
