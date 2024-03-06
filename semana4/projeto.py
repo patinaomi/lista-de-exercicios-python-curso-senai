@@ -13,7 +13,10 @@ def menu_principal():
 | [0] Sair do Programa  |
 -------------------------
 """)
-        op = int(input('Digite uma opção: '))
+
+        op = input('Digite uma opção: ')
+        op = int(op)
+
         if op in range(0, 6):
             if op == 1:
                 adicionar_prod()
@@ -24,12 +27,33 @@ def menu_principal():
             elif op == 4:
                 buscar_prod()
             elif op == 5:
-                print('del prod')
+                deletar_prod()
             elif op == 0:
                 print('Encerrando o programa...')
                 break
         else:
-            print('Opção inválida, digite novamente.')
+            print('Opção inválida, digite novamente')
+
+
+def carregar_dados():
+    with open('estoque.json', 'r', encoding='utf-8') as arquivo:
+        dados = json.load(arquivo)
+    return dados
+
+
+def escrever_dados(dados):
+    with open('estoque.json', 'w', encoding='utf-8') as arquivo:
+        json.dump(dados, arquivo, indent=2, ensure_ascii=False)
+
+
+def imprimir_dados(dados):
+    print(f"\n----- ID #{dados['Id']} -----")
+    print(f"Produto: {dados['Produto']}")
+    print(f"Cor: {dados['Cor']}")
+    print(f"Preço: R${dados['Preço']} un")
+    variacoes = dados["Variações"]
+    for tamanho, quantidade in variacoes.items():
+        print(f"Tam: {tamanho} - {quantidade} pçs")
 
 
 def adicionar_prod():
@@ -42,78 +66,140 @@ def adicionar_prod():
         qtd_var = int(input('Digite a quantidade de variações: '))
 
         for i in range(qtd_var):
-            variacao = input(f'Variação {i+1}: ')
+            variacao = input(f'Variação {i + 1}: ')
             qtd = input('Digite a quantidade: ')
             lista_tam.update({variacao.upper(): qtd})
 
-        with open('estoque.json', 'r', encoding='utf-8') as arquivo:
-            dados = json.load(arquivo)
-            id = len(dados) + 1
-            novo_prod = {'Id': id, 'Produto': produto.capitalize(), 'Cor': cor.capitalize(), 'Preço': preco,
-                         'Variações': lista_tam}
+        dados = carregar_dados()
+        id = len(dados) + 1
 
-            dados.append(novo_prod)
+        novo_prod = {'Id': id, 'Produto': produto.capitalize(), 'Cor': cor.capitalize(), 'Preço': preco,
+                     'Variações': lista_tam}
 
-            with open('estoque.json', 'w', encoding='utf-8') as arquivo:
-                json.dump(dados, arquivo, indent=4, ensure_ascii=False)
+        dados.append(novo_prod)
+        escrever_dados(dados)
 
         print(f'Produto {produto} cadastrado com sucesso!')
         break
 
-def editar_prod():
-    print('------ Alterar Produto ------')
-    with open('estoque.json', 'r', encoding='utf-8') as arquivo:
-        dados = json.load(arquivo)
 
+def editar_prod():
+    print('------ Editar Produto ------')
+    produtos = carregar_dados()
+
+    if not produtos:
+        print('Não há produtos no estoque')
+        return
+
+    num_prod = input("Digite o número do produto que deseja alterar (ou '0' para cancelar): ")
+
+    if num_prod == 0:
+        return
+
+    try:
+        id_prod = int(num_prod) - 1
+        if id_prod < len(produtos):
+            prod_selecionado = produtos[id_prod]
+
+            print('Produto para ser alterado:')
+            imprimir_dados(prod_selecionado)
+
+            op = input('\nDigite o número correspondente ao dado que deseja alterar:'
+                       '\n [1] Nome do Produto'
+                       '\n [2] Cor'
+                       '\n [3] Preço'
+                       '\n [4] Variações'
+                       '\n [0] Cancelar'
+                       '\n Opção: ')
+            if op == '1':
+                prod_selecionado['Nome'] = input('Digite o novo nome do produto: ')
+            elif op == '2':
+                prod_selecionado['Cor'] = input('Digite a nova cor: ')
+            elif op == '3':
+                prod_selecionado['Preço'] = float(input('Digite o novo preço: '))
+            elif op == '4':
+                lista_tam = {}
+                qtd_var = int(input('Digite a quantidade de variações: '))
+                for i in range(qtd_var):
+                    variacao = input(f'Variação {i + 1}: ')
+                    qtd = input('Digite a quantidade: ')
+                    lista_tam.update({variacao.upper(): qtd})
+                    prod_selecionado['Variações'] = lista_tam
+            elif op == '0':
+                return
+            else:
+                print('Opção inválida')
+
+            escrever_dados(produtos)
+
+            print('Produto alterado com sucesso')
+
+        else:
+            print('Produto não encontrado')
+
+    except ValueError:
+        print('Digite somente números')
 
 
 def listar_prod():
     print('------ Listar Produtos ------')
-    with open('estoque.json', 'r', encoding='utf-8') as arquivo:
-        produtos = json.load(arquivo)
+    produtos = carregar_dados()
 
-    #Caso não tenha produto em estoque
+    # Caso não tenha produto em estoque
     if not produtos:
         print('Não há produtos no estoque')
         return
 
     for i, produto in enumerate(produtos):
-        print(f"Id #{produto['Id']}  -  {produto['Produto']}")
-        print(f"Cor: {produto['Cor']}")
-        print(f"Preço: R${produto['Preço']} un.")
-        print(f"Variações: {produto['Variações']}")
-
-        for k, v in enumerate(produtos[3]):
-            print(k, v)
+        imprimir_dados(produto)
 
 
 def buscar_prod():
     print('------ Buscar Produto ------')
-    with open('estoque.json', 'r', encoding='utf-8') as arquivo:
-        produtos = json.load(arquivo)
+    produtos = carregar_dados()
 
-        if not produtos:
-            print('Não há produtos no estoque')
-            return
+    if not produtos:
+        print('Não há produtos no estoque')
+        return
 
-        busca = input('Digite o ID do produto: ')
+    busca = input('Digite o ID do produto: ')
 
-        try:
-            busca = int(busca) - 1
-            if 0 <= busca < len(produtos):
-                produto_encontrado = produtos[busca]
-                print(f"\n----- ID #{produto_encontrado['Id']} -----")
-                print(f"Produto: {produto_encontrado['Produto']}")
-                print(f"Cor: {produto_encontrado['Cor']}")
-                print(f"Preço: R${produto_encontrado['Preço']}un")
-                variacoes = produto_encontrado["Variações"]
-                for tamanho, quantidade in variacoes.items():
-                    print(f"Tam: {tamanho} - {quantidade} pçs")
-            else:
-                print("Produto não foi encontrado")
+    try:
+        busca = int(busca) - 1
+        if busca < len(produtos):
+            prod_selecionado = produtos[busca]
+            imprimir_dados(prod_selecionado)
 
-        except ValueError:
-            print('Digite somente números')
+        else:
+            print("Produto não foi encontrado")
+
+    except ValueError:
+        print('Digite somente números')
+
+
+def deletar_prod():
+    print('------ Deletar Produto ------')
+    produtos = carregar_dados()
+
+    if not produtos:
+        print('Não há produtos no estoque')
+        return
+
+    op = input('Digite o ID do produto: ')
+
+    try:
+        busca = int(op) - 1
+        if busca < len(produtos):
+            produtos = carregar_dados()
+            del produtos[busca]
+            escrever_dados(produtos)
+            print('Produto deletado')
+
+        else:
+            print("Produto não foi encontrado")
+
+    except ValueError:
+        print('Digite somente números')
 
 
 menu_principal()

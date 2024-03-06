@@ -1,13 +1,39 @@
 [
-    {
-        "Id": 1,
-        "Produto": "Blusa",
-        "Cor": "Branco",
-        "Preço": 25.99,
-        "Variações": {
-            "P": "3",
-            "M": "2",
-            "G": "1"
-        }
+  {
+    "Id": 1,
+    "Produto": "Calça",
+    "Cor": "Azul",
+    "Preço": 119.99,
+    "Variações": {
+      "38": "3",
+      "40": "2",
+      "42": "4"
     }
+  },
+  {
+    "Id": 2,
+    "Produto": "Saia",
+    "Cor": "Amarelo",
+    "Preço": 89.99,
+    "Variações": {
+      "U": "4"
+    }
+  },
+  {
+    "Id": 4,
+    "Produto": "Shorts",
+    "Cor": "Violeta",
+    "Preço": 89.99,
+    "Variações": {
+      "P": "2",
+      "G": "4"
+    }
+  },
+  {
+    "Id": 5,
+    "Produto": "Jaqueta",
+    "Cor": "Amarelo",
+    "Preço": 128.99,
+    "Variações": {}
+  }
 ]
