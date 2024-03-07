@@ -14,37 +14,40 @@ def menu_principal():
 -------------------------
 """)
 
-    op = int(input('Digite uma opção: '))
+        op = int(input('Digite uma opção: '))
 
-    if op in range(0, 6):
-        if op == 1:
-            adicionar_prod()
-        elif op == 2:
-            editar_prod()
-        elif op == 3:
-            listar_prod()
-        elif op == 4:
-            buscar_prod()
-        elif op == 5:
-            deletar_prod()
-        elif op == 0:
-            print('Encerrando o programa...')
+        if op in range(0, 6):
+            if op == 1:
+                adicionar_prod()
+            elif op == 2:
+                editar_prod()
+            elif op == 3:
+                listar_prod()
+            elif op == 4:
+                buscar_prod()
+            elif op == 5:
+                deletar_prod()
+            elif op == 0:
+                print('Encerrando o programa...')
+                break
+        else:
+            print('Opção inválida, digite novamente')
 
-    else:
-        print('Opção inválida, digite novamente')
 
-
+#
 def carregar_dados():
     with open('estoque.json', 'r', encoding='utf-8') as arquivo:
         dados = json.load(arquivo)
     return dados
 
 
+#
 def escrever_dados(dados):
     with open('estoque.json', 'w', encoding='utf-8') as arquivo:
         json.dump(dados, arquivo, indent=2, ensure_ascii=False)
 
 
+#
 def imprimir_dados(dados):
     print(f"\n----- ID #{dados['Id']} -----")
     print(f"Produto: {dados['Produto']}")
@@ -55,6 +58,7 @@ def imprimir_dados(dados):
         print(f"Tam: {tamanho} - {quantidade} pçs")
 
 
+#
 def adicionar_prod():
     lista_tam = {}
     while True:
@@ -132,6 +136,7 @@ def editar_prod():
 
                 escrever_dados(produtos)
                 print('Produto alterado com sucesso')
+                break
 
     except ValueError:
         print('Digite somente números')

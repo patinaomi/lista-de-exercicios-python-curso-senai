@@ -11,16 +11,6 @@
     }
   },
   {
-    "Id": 4,
-    "Produto": "Shorts",
-    "Cor": "Violeta",
-    "Preço": 89.99,
-    "Variações": {
-      "P": "2",
-      "G": "4"
-    }
-  },
-  {
     "Id": 5,
     "Produto": "Jaqueta",
     "Cor": "Amarelo",
