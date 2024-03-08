@@ -1,20 +1,24 @@
 [
   {
     "Id": 1,
-    "Produto": "Calça",
-    "Cor": "Azul",
-    "Preço": 119.99,
+    "Produto": "Blusa",
+    "Cor": "Roxo",
+    "Preço": 89.99,
     "Variações": {
-      "38": "3",
-      "40": "2",
-      "42": "4"
+      "P": "4",
+      "M": "3",
+      "G": "2"
     }
   },
   {
-    "Id": 5,
-    "Produto": "Jaqueta",
-    "Cor": "Amarelo",
-    "Preço": 128.99,
-    "Variações": {}
+    "Id": 2,
+    "Produto": "Calça",
+    "Cor": "Azul marinho",
+    "Preço": 129.99,
+    "Variações": {
+      "38": "2",
+      "40": "3",
+      "42": "1"
+    }
   }
 ]
