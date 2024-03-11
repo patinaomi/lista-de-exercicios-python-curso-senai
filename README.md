@@ -24,7 +24,7 @@ Repositório dedicado a resoluções de todos os exercícios propostos no curso 
    * [Aula 12/20 - Continuação Dicionários](#aula-1220---continuação-dicionários)
    * [Aula 13/20 - Funções](#aula-1320---funções)
    * [Aula 14/20 - Continuação Funções](#aula-1420---continuação-funções)
-   * [Aula 15/20 - Continuação Funções pt. 2](#aula-1520---continuação-funções-pt.-2)
+   * [Aula 15/20 - Continuação Funções pt. 2](#aula-1520---continuação-funções-pt2)
   * [Semana 4](#semana-4)
     * [Aula 16 a 20 - Projeto](#aula-16-a-20---projeto)
     
