@@ -1,14 +1,9 @@
-print('🅢🅐🅑🅞🅡 🅔🅧🅟🅡🅔🅢🅢')
+def soma(a, b):
+    return a + b
 
-print("""1. Cadastrar restaurante
-2. Listar restaurante
-3. Ativar restaurante
-4. Sair\n""")
+a = int(input('Digite um número: '))
+b = int(input('Digite um número: '))
 
-# opcao = input('Digite uma opção: ')
+resultado = soma(a, b)
 
-nome = 'A sua média é '
-
-pi = 3.133103109
-
-print(round(pi, 4))
+print(f'O resultado é {resultado}')
