@@ -24,9 +24,9 @@ Repositório dedicado a resoluções de todos os exercícios propostos no curso 
  * [Semana 3](#semana-3)
    * [Aula 11/20 - Dicionários](#aula-1120---dicionários)
    * [Aula 12/20 - Continuação Dicionários](#aula-1220---continuação-dicionários)
-   * [Aula 13/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-   * [Aula 14/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-   * [Aula 15/20 - Apresentação do Curso](#--mundo-1-fundamentos)
+   * [Aula 13/20 - Funções](#--mundo-1-fundamentos)
+   * [Aula 14/20 - Continuação Funções](#--mundo-1-fundamentos)
+   * [Aula 15/20 - Continuação Funções pt. 2](#--mundo-1-fundamentos)
   * [Semana 4](#semana-4)
     * [Aula 16 a 20 - Projeto](#aula-16-a-20---projeto)
     
@@ -180,7 +180,7 @@ Faça um programa que busque os dados de um usuário cadastrado.
 #### [Exercicio 031](semana3/031.py)
 Faça um programa que busque os dados de um usuário cadastrado.
 
-### Aula 15/20 - Continuação Funções
+### Aula 15/20 - Continuação Funções pt.2
 #### [Exercicio 031](semana3/031.py)
 Faça um programa que busque os dados de um usuário cadastrado.
 
