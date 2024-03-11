@@ -169,19 +169,19 @@ Faça um programa que busque os dados de um usuário cadastrado.
 
 ### Aula 12/20 - Continuação Dicionários
 
-#### [Exercicio 031](semana3/031.py)
+#### [Exercicio 032](semana3/032.py)
 Faça um programa que busque os dados de um usuário cadastrado.
 
 ### Aula 13/20 - Funções
-#### [Exercicio 031](semana3/031.py)
+#### [Exercicio 033](semana3/033.py)
 Faça um programa que busque os dados de um usuário cadastrado.
 
 ### Aula 14/20 - Continuação Funções
-#### [Exercicio 031](semana3/031.py)
+#### [Exercicio 034](semana3/034.py)
 Faça um programa que busque os dados de um usuário cadastrado.
 
 ### Aula 15/20 - Continuação Funções pt.2
-#### [Exercicio 031](semana3/031.py)
+#### [Exercicio 035](semana3/035.py)
 Faça um programa que busque os dados de um usuário cadastrado.
 
 [:arrow_up: voltar para o índice :arrow_up:](#índice)
@@ -189,7 +189,7 @@ Faça um programa que busque os dados de um usuário cadastrado.
 ## Semana 4
 
 ### Aula 16 a 20 - Projeto
-#### Sistema de Gerenciamento de Estoque
+#### Sistema de Gerenciamento de Estoque] (semana4) 
 
 Este é um sistema de gerenciamento de estoque desenvolvido em Python. Ele permite a adição, edição, listagem, busca e remoção de produtos em um estoque. Cada produto é caracterizado por seu ID, nome, cor, preço e variações de tamanho com suas respectivas quantidades. <br>
 
