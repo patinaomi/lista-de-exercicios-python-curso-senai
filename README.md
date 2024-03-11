@@ -28,13 +28,8 @@ Repositório dedicado a resoluções de todos os exercícios propostos no curso 
    * [Aula 14/20 - Apresentação do Curso](#--mundo-1-fundamentos)
    * [Aula 15/20 - Apresentação do Curso](#--mundo-1-fundamentos)
   * [Semana 4](#semana-4)
-    * [Aula 16/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-    * [Aula 17/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-    * [Aula 18/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-    * [Aula 19/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-    * [Aula 20/20 - Apresentação do Curso](#--mundo-1-fundamentos)
-
-
+    * [Aula 16 a 20 - Projeto](#aula-16-a-20---projeto)
+    
 # Enunciados
 
 ## Semana 1
@@ -174,14 +169,43 @@ Faça um programa que busque os dados de um usuário cadastrado.
 
 ### Aula 12/20 - Continuação Dicionários
 
-### Aula 13/20 - Tuplas
+#### [Exercicio 031](semana3/031.py)
+Faça um programa que busque os dados de um usuário cadastrado.
 
-### Aula 14/20 - Tuplas
+### Aula 13/20 - Funções
+#### [Exercicio 031](semana3/031.py)
+Faça um programa que busque os dados de um usuário cadastrado.
 
-### Aula 15/20 - Tuplas
+### Aula 14/20 - Continuação Funções
+#### [Exercicio 031](semana3/031.py)
+Faça um programa que busque os dados de um usuário cadastrado.
+
+### Aula 15/20 - Continuação Funções
+#### [Exercicio 031](semana3/031.py)
+Faça um programa que busque os dados de um usuário cadastrado.
 
 [:arrow_up: voltar para o índice :arrow_up:](#índice)
 
 ## Semana 4
+
+### Aula 16 a 20 - Projeto
+#### Sistema de Gerenciamento de Estoque
+
+Este é um sistema de gerenciamento de estoque desenvolvido em Python. Ele permite a adição, edição, listagem, busca e remoção de produtos em um estoque. Cada produto é caracterizado por seu ID, nome, cor, preço e variações de tamanho com suas respectivas quantidades.
+
+##### Funcionalidades
+**Adicionar Produto:** Permite inserir um novo produto no estoque com informações detalhadas.
+**Editar Produto:** Facilita a edição de detalhes de um produto existente.
+**Listar Produtos:** Exibe todos os produtos atualmente em estoque.
+**Buscar Produto:** Permite buscar um produto específico por seu ID.
+**Deletar Produto:** Remove um produto do estoque.
+
+##### Tecnologias Utilizadas
+**Python:** Linguagem de programação usada para desenvolver o sistema.
+**JSON:** Formato de arquivo utilizado para armazenamento e intercâmbio de dados do estoque.
+
+##### Estrutura de Arquivos
+menu_principal.py: Arquivo principal que contém o loop do menu e chama as funções de gerenciamento de estoque.
+estoque.json: Arquivo JSON onde os dados dos produtos são armazenados.
 
 [:arrow_up: voltar para o índice :arrow_up:](#índice)
