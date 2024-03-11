@@ -191,21 +191,21 @@ Faça um programa que busque os dados de um usuário cadastrado.
 ### Aula 16 a 20 - Projeto
 #### Sistema de Gerenciamento de Estoque
 
-Este é um sistema de gerenciamento de estoque desenvolvido em Python. Ele permite a adição, edição, listagem, busca e remoção de produtos em um estoque. Cada produto é caracterizado por seu ID, nome, cor, preço e variações de tamanho com suas respectivas quantidades.
+Este é um sistema de gerenciamento de estoque desenvolvido em Python. Ele permite a adição, edição, listagem, busca e remoção de produtos em um estoque. Cada produto é caracterizado por seu ID, nome, cor, preço e variações de tamanho com suas respectivas quantidades. <br>
 
 ##### Funcionalidades
-**Adicionar Produto:** Permite inserir um novo produto no estoque com informações detalhadas.
-**Editar Produto:** Facilita a edição de detalhes de um produto existente.
-**Listar Produtos:** Exibe todos os produtos atualmente em estoque.
-**Buscar Produto:** Permite buscar um produto específico por seu ID.
-**Deletar Produto:** Remove um produto do estoque.
+**Adicionar Produto:** Permite inserir um novo produto no estoque com informações detalhadas. <br>
+**Editar Produto:** Facilita a edição de detalhes de um produto existente. <br>
+**Listar Produtos:** Exibe todos os produtos atualmente em estoque. <br>
+**Buscar Produto:** Permite buscar um produto específico por seu ID. <br>
+**Deletar Produto:** Remove um produto do estoque. <br>
 
 ##### Tecnologias Utilizadas
-**Python:** Linguagem de programação usada para desenvolver o sistema.
-**JSON:** Formato de arquivo utilizado para armazenamento e intercâmbio de dados do estoque.
+**Python:** Linguagem de programação usada para desenvolver o sistema. <br>
+**JSON:** Formato de arquivo utilizado para armazenamento e intercâmbio de dados do estoque. <br>
 
 ##### Estrutura de Arquivos
-menu_principal.py: Arquivo principal que contém o loop do menu e chama as funções de gerenciamento de estoque.
-estoque.json: Arquivo JSON onde os dados dos produtos são armazenados.
+menu_principal.py: Arquivo principal que contém o loop do menu e chama as funções de gerenciamento de estoque. <br>
+estoque.json: Arquivo JSON onde os dados dos produtos são armazenados. <br>
 
 [:arrow_up: voltar para o índice :arrow_up:](#índice)
