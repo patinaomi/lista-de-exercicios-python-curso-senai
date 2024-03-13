@@ -198,7 +198,7 @@ Obs: guarda o valor em memória, se caso precisar retornar o valor da Memória, 
 ## Semana 4
 
 ### Aula 16 a 20 - Projeto
-#### Sistema de Gerenciamento de Estoque] (semana4) 
+#### [Sistema de Gerenciamento de Estoque](https://github.com/patinaomi/lista-de-exercicios-python-curso-senai/tree/main/semana4)
 
 Este é um sistema de gerenciamento de estoque desenvolvido em Python. Ele permite a adição, edição, listagem, busca e remoção de produtos em um estoque. Cada produto é caracterizado por seu ID, nome, cor, preço e variações de tamanho com suas respectivas quantidades. <br>
 
