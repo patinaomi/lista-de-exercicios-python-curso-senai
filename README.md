@@ -24,7 +24,7 @@ Repositório dedicado a resoluções de todos os exercícios propostos no curso 
    * [Aula 12/20 - Continuação Dicionários](#aula-1220---continuação-dicionários)
    * [Aula 13/20 - Funções](#aula-1320---funções)
    * [Aula 14/20 - Continuação Funções](#aula-1420---continuação-funções)
-   * [Aula 15/20 - Continuação Funções pt. 2](#aula-1520---continuação-funções-pt2)
+   * [Aula 15/20 - Orientação a Objetos](#aula-1520---orientação-a-objetos)
   * [Semana 4](#semana-4)
     * [Aula 16 a 20 - Projeto](#aula-16-a-20---projeto)
     
@@ -191,7 +191,66 @@ Desenvolva um algoritmo calculadora que execute as operações:
 
 Obs: guarda o valor em memória, se caso precisar retornar o valor da Memória, selecionar "Memoria"
 
-### Aula 15/20 - Continuação Funções pt.2
+### Aula 15/20 - Orientação a Objetos
+#### [Exercicio 037](semana3/037.py)
+Crie uma classe “Pessoa” com os atributos “nome” e “idade”. Em seguida, crie um objeto dessa classe e imprima seus atributos.
+
+#### [Exercicio 038](semana3/038.py)
+Crie uma classe “ContaBancaria” com os atributos “saldo” e “titular”. Implemente métodos para depositar e sacar dinheiro da conta.
+
+ #### [Exercicio 039](semana3/039.py)
+Crie uma classe “Carro” com os atributos “marca”, “modelo” e “ano”. Implemente um método para imprimir as informações do carro.
+
+ #### [Exercicio 040](semana3/040.py)
+Crie uma classe “Retangulo” com os atributos “largura” e “altura”. Implemente métodos para calcular a área e o perímetro do retângulo.
+
+ #### [Exercicio 041](semana3/041.py)
+Crie uma classe “Cachorro” com os atributos “nome”, “idade” e “raca”. Implemente um método para imprimir a idade em anos humanos.
+
+ #### [Exercicio 042](semana3/042.py)
+Crie uma classe “Triangulo” com os atributos “lado1”, “lado2” e “lado3”. Implemente um método para verificar se é um triângulo equilátero, isósceles ou escaleno.
+
+ #### [Exercicio 043](semana3/043.py)
+Crie uma classe “ContaCorrente” que herda da classe “ContaBancaria” (exercício 2) e implemente um método para cobrar uma taxa de manutenção mensal.
+
+ #### [Exercicio 044](semana3/044.py)
+Crie uma classe “Livro” com os atributos ‘título’, “autor” e “ano”. Implemente um método para imprimir as informações do livro.
+
+ #### [Exercicio 045](semana3/045.py)
+Crie uma classe “Círculo” com o atributo “raio”. Implemente métodos para calcular a área e o perímetro do círculo.
+
+ #### [Exercicio 046](semana3/046.py)
+Crie uma classe “Aluno” com os atributos “nome”, “matricula” e “notas”. Implemente um método para calcular a média das notas.
+
+ #### [Exercicio 047](semana3/047.py)
+Crie uma classe “Quadrado” com o atributo “lado”. Implemente métodos para calcular a área e o perímetro do quadrado.
+
+ #### [Exercicio 048](semana3/048.py)
+Crie uma classe “ContaPoupanca” que herda da classe “ContaBancaria” (exercício 2) e implemente um método para calcular os juros mensais.
+
+ #### [Exercicio 049](semana3/049.py)
+Crie uma classe “Funcionario” com os atributos “nome”, “salario” e “departamento”. Implemente um método para aplicar um aumento de salário.
+
+ #### [Exercicio 050](semana3/050.py)
+Crie uma classe “Calculadora” com métodos para adição, subtração, multiplicação e divisão.
+
+ #### [Exercicio 051](semana3/051.py)
+Crie uma classe “Telefone” com os atributos “marca” e “modelo”. Implemente um método para ligar o telefone.
+
+ #### [Exercicio 052](semana3/052.py)
+Crie uma classe “Email” com os atributos “remetente”, “destinatario”, “assunto” e “corpo”. Implemente um método para enviar o email.
+
+ #### [Exercicio 053](semana3/053.py)
+Crie uma classe “Animal” com os métodos “comer()” e “dormir()”. Crie classes “Cachorro”, “Gato” e “Passaro” que herdam da classe “Animal” e implemente métodos específicos para cada um.
+
+ #### [Exercicio 054](semana3/054.py)
+Crie uma classe “Cliente” com os atributos “nome” e “cpf”. Implemente um método para imprimir os detalhes do cliente.
+
+ #### [Exercicio 055](semana3/055.py)
+Crie uma classe “Cronometro” com métodos para iniciar, pausar e resetar.
+
+ #### [Exercicio 056](semana3/056.py)
+Crie uma classe “Calendário” com os métodos “adicionar_evento()” e “listar_eventos()”.
 
 [:arrow_up: voltar para o índice :arrow_up:](#índice)
 
